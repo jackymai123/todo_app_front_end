@@ -2,12 +2,8 @@ html{
     font-family:sans-serif;
 }
 
-li{
-    padding: 5px;
-    margin-bottom:10px;
-    border:2px solid #2C3E50;
-    color:#E74C3C;
-}
+
+
 
 h1{
     display: inline;
@@ -15,4 +11,30 @@ h1{
     font-size: 32px;
     margin: 20px 0px;
     background-color: #32CD32;
+}
+
+ul{
+    list-style:none;
+    font-size: 20px;
+    background-color: #FFF;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px #90A4AE;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+li:hover{
+    background-color: #E1F5FE;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #E1F5FE;
+    vertical-align: middle;
 }
