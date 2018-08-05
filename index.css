@@ -5,4 +5,6 @@ html{
 li{
     padding: 5px;
     margin-bottom:10px;
+    border:2px solid #2C3E50;
+    color:#E74C3C;
 }
