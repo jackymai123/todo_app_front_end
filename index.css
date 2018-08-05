@@ -60,10 +60,10 @@ div{
     padding: 5px 10px 5px 10px;
 }
 
-#add-new-todo-button{
+    #add-new-todo-button{
     font-size: 20px;
     text-align: center;
-    color: #FFF;
+    color:#fc0101;
     outline: none;
     border-style: none;
     padding: 10px;
@@ -76,4 +76,17 @@ div{
 
 #add-new-todo-button:active{
     box-shadow: 1px 1px 1px #90A4AE;
+    color: #02fc1f;
+
+}
+body {
+    color: #02fc1f;
+    background-color:ECEFF1;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #02fc1f;
+    text-align: center;
+    margin-top: 20px;
 }
