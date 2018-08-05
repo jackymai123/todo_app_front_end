@@ -10,31 +10,44 @@ h1{
     vertical-align: middle;
     font-size: 32px;
     margin: 20px 0px;
-    background-color: #32CD32;
+    background-color: #ADFF2F;
 }
 
 ul{
     list-style:none;
     font-size: 20px;
-    background-color: #FFF;
+    background-color: #00FFFF;
     padding: 20px;
     width: 60%;
     margin: 0 auto;
     border-radius: 5px;
-    box-shadow: 1px 1px #90A4AE;
+    box-shadow: 1px 1px #ADFF2F;
 }
 
 li{
     margin-bottom: 10px;
     padding: 5px;
 }
-li:hover{
-    background-color: #E1F5FE;
-    border-radius: 3px;
+li:hover{    border-radius: 3px;
 }
 
 a{
     text-decoration: none;
-    color: #E1F5FE;
+    color: #ADFF2F;
     vertical-align: middle;
+}
+
+input[type= "text"], input[type="number"]{
+    font-size: 20px;
+    background-color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #ADFF2F;
+}
+
+div{
+    width: 60%;
+    margin: 20px auto 0px auto;
 }
